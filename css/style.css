@@ -1,0 +1,327 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  background-color: rgba(170, 113, 183, 0.413);
+}
+
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.main-block {
+  background-color: grey;
+}
+
+.main-block__svg-icons {
+  padding: 20px;
+}
+
+.main-block__title {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.main-block__svg-icons > * {
+  padding: 30px;
+}
+
+.svg1 {
+  background: url(../img/icons/arrow-right.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.svg2 {
+  background: url(../img/icons/Ayro-UI-logo.svg) no-repeat;
+  display: inline-block;
+  width: 200px;
+  height: 35px;
+}
+
+.svg3 {
+  background: url(../img/icons/call-big.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.svg4 {
+  background: url(../img/icons/call.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.svg5 {
+  background: url(../img/icons/fb.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.svg6 {
+  background: url(../img/icons/insta.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.svg7 {
+  background: url(../img/icons/linkD.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.svg8 {
+  background: url(../img/icons/twit.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.svg9 {
+  background: url(../img/icons/Group-Logo.svg) no-repeat;
+  display: inline-block;
+  width: 200px;
+  height: 35px;
+}
+
+.svg10 {
+  background: url(../img/icons/Group1.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.svg11 {
+  background: url(../img/icons/Group2.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.svg12 {
+  background: url(../img/icons/Group3.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.svg13 {
+  background: url(../img/icons/Group4.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.svg14 {
+  background: url(../img/icons/Group5.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.svg15 {
+  background: url(../img/icons/Group6.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.svg16 {
+  background: url(../img/icons/Logo.svg) no-repeat;
+  display: inline-block;
+  width: 200px;
+  height: 35px;
+}
+
+.svg17 {
+  background: url(../img/icons/mail.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.svg18 {
+  background: url(../img/icons/map-marker.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.svg19 {
+  background: url(../img/icons/Logo-footer.svg) no-repeat;
+  display: inline-block;
+  width: 200px;
+  height: 35px;
+}
+
+.svg20 {
+  background: url(../img/icons/mail-footer.svg) no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.main-block__svg-diz > * {
+  padding: 30px;
+}
+
+.svg21 {
+  background: url(../img/icons/Dotted-Shape.svg) no-repeat;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+
+.svg22 {
+  background: url(../img/icons/Dotted-Shape1.svg) no-repeat;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+
+.svg23 {
+  background: url(../img/icons/Dotted-Shape2.svg) no-repeat;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+
+.svg24 {
+  background: url(../img/icons/Oval.svg) no-repeat;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+
+.svg25 {
+  background: url(../img/icons/Oval2.svg) no-repeat;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+
+.svg26 {
+  background: url(../img/icons/two-oval.svg) no-repeat;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+
+.svg27 {
+  background: url(../img/icons/ellips1.svg) no-repeat;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.svg28 {
+  background: url(../img/icons/ellips2.svg) no-repeat;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.content-web {
+  display: inline-block;
+}
+.content-web img {
+  width: 100%;
+  border-radius: 15px;
+}
